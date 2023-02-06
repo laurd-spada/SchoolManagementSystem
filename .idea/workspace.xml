@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2c02c26-63f4-4ac5-9d9b-08a10c4dc768" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SchoolManagementSystem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/school/management/system/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/school/management/system/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/school/management/system/Students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/school/management/system/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/school/management/system/deletewill.java" afterDir="false" />
+    <list default="true" id="d2c02c26-63f4-4ac5-9d9b-08a10c4dc768" name="Changes" comment="Working beta">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/school/management/system/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/school/management/system/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/school/management/system/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/school/management/system/School.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/school/management/system/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/school/management/system/Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/school/management/system/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/school/management/system/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +50,18 @@
       <option name="presentableId" value="Default" />
       <updated>1675506776056</updated>
     </task>
+    <task id="LOCAL-00001" summary="Working beta">
+      <created>1675634635592</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675634635593</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Working beta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working beta" />
   </component>
 </project>

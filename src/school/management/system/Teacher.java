@@ -11,6 +11,7 @@ public class Teacher {
     private int id;
     private String name;
     private int salary;
+    private int salaryEarned;
 
     // Creating a constructor
     /**
@@ -23,6 +24,7 @@ public class Teacher {
         this.id = id;
         this.name = name;
         this.salary = salary;
+        this.salaryEarned = 0;
     }
     // we need to get id, name and salary of the teacher
     /**
@@ -52,5 +54,18 @@ public class Teacher {
      * */
     public void setSalary(int salary){
         this.salary = salary;
+    }
+    /**
+     * Adds to salary
+     * remove from total money earned in school
+     * @param salary */
+    public void receiveSalary(int salary){
+        salaryEarned += salary;
+        School.updateTotalMoneySpent(salary);
+    }
+
+    @Override
+    public String toString() {
+        return "Name of Teacher is : " +id+" "+ name + " Total salary earned is : $" + salaryEarned;
     }
 }

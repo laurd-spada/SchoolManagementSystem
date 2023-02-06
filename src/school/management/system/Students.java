@@ -42,7 +42,7 @@ public class Students {
     public void setGrade(int grade){
         this.grade = grade;
     }
-    /*
+    /**
     *Initially 0 -> paid 10,000-> feesPaid 10,000
     * again, feesPaid = 10,000 + 5,000 + 15,000
     * Basically, fees keep adding to feesPaid Field
@@ -50,8 +50,9 @@ public class Students {
     * This schools is going to receive the funds/fees.
     * @param fees the fees that student pays.
     */
-    public void updateFeesPaid(int fees){
+    public void payFees(int fees){
         feesPaid += fees;
+        School.updateTotalMoneyEarned(feesPaid);
     }
 
     /**
@@ -83,5 +84,18 @@ public class Students {
      */
     public int getFeesTotal() {
         return feesTotal;
+    }
+    /**
+     * @return the remaining fees
+     * */
+    public int getRemainingFees(){
+        return feesTotal - feesPaid;
+    }
+    /**
+     * @return
+     * */
+    @Override
+    public String toString() {
+        return "Student's Name: " +id +" " + name + " Total fees paid: $" + feesPaid +" Remains: $ " + getRemainingFees();
     }
 }
